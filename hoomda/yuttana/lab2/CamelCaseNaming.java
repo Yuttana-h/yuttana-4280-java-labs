@@ -28,7 +28,7 @@ public class CamelCaseNaming {
             String lowwerLastName = lastName.substring(1).toLowerCase();
             String camelLastName = upperLastName + lowwerLastName;
 
-            System.out.println("Camel Case Result: " + camelFirstName + " " + camelLastName);
+            System.out.println("Camel Case Result: " + camelFirstName + camelLastName);
         }
         //if input argument it not equal 2 print error
         else {
