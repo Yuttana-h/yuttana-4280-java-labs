@@ -2,7 +2,7 @@ package hoomda.yuttana.lab2;
 /*this program input 2 argument
  *about convert first of string to uppercase
  *out put is should be
- *Camel Case Result: Xxxxx Yyyyyy
+ *Camel Case Result: XxxxxYyyyyy
 
  *Author : Yuttana Hoomda
  *ID : 663040428-0
@@ -13,18 +13,18 @@ package hoomda.yuttana.lab2;
 
 public class CamelCaseNaming {
     public static void main(String[] args) {
-        String firstName = args[0];
-        String lastName = args[1];
         if (args.length == 2) {
+            String firstName = args[0];
+            String lastName = args[1];
             //convert first of fistrname to uppercase
             char upperFirstName = firstName.toUpperCase().charAt(0);
-            //subswtring first of char to last of char
+            //substring first of char to last of char
             String lowwerFirstName = firstName.substring(1).toLowerCase();
             String camelFirstName = upperFirstName + lowwerFirstName;
 
             //convert first of lastname to uppercase
             char upperLastName = lastName.toUpperCase().charAt(0);
-            //subswtring first of char to last of char
+            //substring first of char to last of char
             String lowwerLastName = lastName.substring(1).toLowerCase();
             String camelLastName = upperLastName + lowwerLastName;
 

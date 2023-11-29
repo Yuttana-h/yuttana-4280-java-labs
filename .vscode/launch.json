@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "yuttana-4280-java-labs_865078a8"
+        },
+        {
+            "type": "java",
+            "name": "CamelCaseNaming",
+            "request": "launch",
+            "mainClass": "hoomda.yuttana.lab2.CamelCaseNaming",
+            "projectName": "yuttana-4280-java-labs_865078a8"
+        },
+        {
+            "type": "java",
+            "name": "PrimitiveDataType",
+            "request": "launch",
+            "mainClass": "hoomda.yuttana.lab2.PrimitiveDataType",
+            "projectName": "yuttana-4280-java-labs_865078a8"
+        },
+        {
+            "type": "java",
+            "name": "SimpleCalculator",
+            "request": "launch",
+            "mainClass": "hoomda.yuttana.lab2.SimpleCalculator",
+            "projectName": "yuttana-4280-java-labs_865078a8"
+        },
+        {
+            "type": "java",
+            "name": "patient",
+            "request": "launch",
+            "mainClass": "hoomda.yuttana.lab2.patient",
+            "projectName": "yuttana-4280-java-labs_865078a8"
+        }
+    ]
+}
